@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Perfect Day - To Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>My Perfect Day</h1>
+
+            <p class="greeting">Greetings!</p>
+
+            <p class="subtitle">
+                Let's make today a perfect day.
+            </p>
+        </div>
+
+
+        <div class="goal-box">
+            <h2>Today's Goal</h2>
+
+            <p>
+                Be productive without forgetting to enjoy the day.
+            </p>
+        </div>
+
+
+        <div class="input-section">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="What do you want to accomplish today?"
+            >
+
+            <button id="addTaskButton">
+                Add Task
+            </button>
+
+        </div>
+
+
+        <div class="task-heading">
+            <h2>Today's Tasks</h2>
+            <span id="taskCount">0 tasks</span>
+        </div>
+
+
+        <ul id="taskList"></ul>
+
+
+        <div class="empty-message" id="emptyMessage">
+            Your day is waiting for you. Add your first task!
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
